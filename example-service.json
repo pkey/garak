@@ -1,0 +1,13 @@
+{
+    "rest": {
+        "RestGenerator": {
+            "name": "agent",
+            "uri": "http://127.0.0.1:8000/agent/generate",
+            "method": "post",
+            "req_template_json_object": {
+                "prompt": "$INPUT",
+                "interacting_user_id": "2e4c428a-03f0-11f0-99a1-ef15fad733d7"
+            }
+        }
+    }
+}
