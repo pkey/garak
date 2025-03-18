@@ -19,8 +19,8 @@ class ModelAsJudge(Detector, EvaluationJudge):
     """
 
     DEFAULT_PARAMS = Detector.DEFAULT_PARAMS | {
-        "detector_model_type": "nim",
-        "detector_model_name": "meta/llama3-70b-instruct",
+        "detector_model_type": "openai",
+        "detector_model_name": "gpt-4o",
         "detector_model_config": None,
         "detector_goal": None,
         "confidence_cutoff": 7,
